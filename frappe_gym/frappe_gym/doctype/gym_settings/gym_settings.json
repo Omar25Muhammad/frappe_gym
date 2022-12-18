@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-12-08 13:05:46.468701",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "welcome",
+  "section_break_2",
+  "name1",
+  "active",
+  "phone_number",
+  "email",
+  "finance_email",
+  "column_break_3",
+  "address",
+  "photo",
+  "past_bookings"
+ ],
+ "fields": [
+  {
+   "fieldname": "welcome",
+   "fieldtype": "Heading",
+   "label": "Gym Settings"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Photo"
+  },
+  {
+   "default": "0",
+   "fieldname": "past_bookings",
+   "fieldtype": "Check",
+   "label": "Allow Past Bookings"
+  },
+  {
+   "fieldname": "finance_email",
+   "fieldtype": "Data",
+   "label": "Finance Email"
+  }
+ ],
+ "image_field": "photo",
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-12-18 02:25:05.598205",
+ "modified_by": "Administrator",
+ "module": "Frappe Gym",
+ "name": "Gym Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

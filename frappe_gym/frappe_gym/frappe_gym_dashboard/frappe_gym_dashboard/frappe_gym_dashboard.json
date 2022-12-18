@@ -1,0 +1,25 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Class Bookings",
+   "width": "Half"
+  },
+  {
+   "chart": "Frappe Gym Financial Report",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-12-09 18:08:25.410579",
+ "dashboard_name": "Frappe Gym Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2022-12-09 18:16:55.700936",
+ "modified_by": "Administrator",
+ "module": "Frappe Gym",
+ "name": "Frappe Gym Dashboard",
+ "owner": "Administrator"
+}

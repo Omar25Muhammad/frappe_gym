@@ -1,0 +1,14 @@
+[
+ {
+  "active": 1,
+  "description": "A morning shift membership that starts from 6 a.m. and ends at 12 p.m.",
+  "docstatus": 0,
+  "doctype": "Membership Types",
+  "includes_trainer": 0,
+  "length_in_days": 30,
+  "membership_type": "Morning",
+  "modified": "2022-12-18 02:42:47.636251",
+  "name": "Morning",
+  "price": 55.0
+ }
+]

@@ -1,0 +1,25 @@
+{% extends "templates/web.html" %}
+
+{%- block title -%}{{_("Not Found")}}{%- endblock -%}
+
+{% block page_content %}
+
+<script>
+	window.is_404 = true;
+</script>
+
+<div class="error-page">
+	<img class="img-404" src="/assets/frappe/images/ui-states/page-not-found.jpg" />
+	<div>
+		<h2 class="mb-1 mt-4">
+			{{ _("The page you are looking for is not available") }}
+		</h2>
+		<div class="text-muted error-text" style="font-size: 27px;">
+			Please <a href="/contact">contact us</a> if you believe this is an error
+		</div>
+		<div class="mt-6 back-to-home"><a href='/' class='btn btn-primary'>{{ _("Back to Home") }}</a></div>
+		
+	</div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_gym *.css
+recursive-include frappe_gym *.csv
+recursive-include frappe_gym *.html
+recursive-include frappe_gym *.ico
+recursive-include frappe_gym *.js
+recursive-include frappe_gym *.json
+recursive-include frappe_gym *.md
+recursive-include frappe_gym *.png
+recursive-include frappe_gym *.py
+recursive-include frappe_gym *.svg
+recursive-include frappe_gym *.txt
+recursive-exclude frappe_gym *.pyc

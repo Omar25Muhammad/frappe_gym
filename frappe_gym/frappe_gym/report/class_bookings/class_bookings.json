@@ -1,0 +1,35 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2022-12-09 03:53:38.035065",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "modified": "2022-12-09 03:53:38.035065",
+ "modified_by": "Administrator",
+ "module": "Frappe Gym",
+ "name": "Class Bookings",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Class Booking",
+ "report_name": "Class Bookings",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Gym Admin"
+  },
+  {
+   "role": "Gym Trainer"
+  },
+  {
+   "role": "Gym Member"
+  }
+ ]
+}

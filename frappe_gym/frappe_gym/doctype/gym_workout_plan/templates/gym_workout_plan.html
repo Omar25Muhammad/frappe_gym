@@ -1,0 +1,33 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<main role="main">
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <img width=200px src="{{ photo }}">
+            <h2 class="display-3">{{ plan_name }}</h2>
+            <p>{{ description }}</p>
+            <a class="btn btn-light" href="/workout">View all Workouts</a>
+        </div>
+    </div>
+    <table class="table align-middle mb-0 bg-white">
+        <thead>
+            <tr>
+                <th scope="col">Step</th>
+                <th scope="col">Description</th>
+                <th scope="col">Length</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for set in sets %}
+            <tr>
+                <td>{{ set.set_name }}</td>
+                <td>{{ set.detail }}</td>
+                <td>{{ set.length }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</main>
+{% endblock %}
